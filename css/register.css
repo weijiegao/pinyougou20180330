@@ -1,0 +1,172 @@
+{
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    font-family: tahoma, arial, "Hiragino Sans GB", "Microsoft Yahei", \5b8b\4f53, sans-serif;
+    line-height: 18px;
+}
+.w {
+    width: 1200px;
+    margin: auto;
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.row_210 {
+    width: 210px;
+    overflow: hidden;
+}
+.row_330 {
+    width: 330px;
+    overflow: hidden;
+}
+.row_220 {
+    width: 219px;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    overflow: hidden;
+}
+img {
+
+    vertical-align: top;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  *zoom: 1;   /*   * ie7以下的版本才识别的*/
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+a:hover {
+    color: #e82633;
+    text-decoration: underline;
+}
+
+em {
+    font-style: normal!important;
+}
+
+i {
+    font-style: normal!important;
+}
+input,
+button {
+  outline: none;
+  border: 0;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icomoon {
+    font-family: 'icomoon';
+}
+
+.header {
+  height: 80px;
+  border-bottom: 2px solid #c81623;
+}
+.logo {
+  float: left;
+  margin-top: 10px;
+}
+.registerarea {
+  margin-top: 20px;
+  height: 45px;
+  border: 1px solid #ccc;
+  background: #eee;
+}
+.registerarea h3 {
+  font-weight: 400;
+  padding: 0 20px;
+}
+.registerarea h3 a {
+  color: #c81623;
+}
+
+.reg_form {
+  width: 600px;
+  margin: 50px auto 0;
+}
+.reg_form li {
+  margin-bottom: 20px;
+}
+.reg_form label {
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+  line-height: 34px;
+  text-align: right;
+  font-size: 14px;
+}
+.reg_form input {
+  height: 34px;
+  width: 238px;
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.reg_form input:focus {
+  border: 1px solid skyblue;
+}
+.default {
+  color: #ccc;
+}
+.error {
+  color: #c81623;
+}
+.right {
+  color: green;
+}
+.error img,
+.right img {
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 5px;
+}
+.safe {
+  margin-left: 204px;
+  font-size: 14px;
+  color: #ccc;
+}
+.safe em {
+  font-style: normal;
+  color: #fff; 
+  padding: 0 10px;
+ 
+}
+.safe .weak {
+  background: red;
+}
+.safe .mid {
+   background: orange;
+}.safe .strong {
+   background: green;
+}
+
